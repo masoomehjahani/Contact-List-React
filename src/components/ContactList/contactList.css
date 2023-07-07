@@ -1,0 +1,27 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 4px;
+  border: 1px solid #ccc;
+}
+
+.item button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+}
